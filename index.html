@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>registration-form</title>
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+
+  <section class="contact pad-t-2 pad-b-2">
+    <div class="max-length">
+      <h1>Want to go to Mars</h1>
+      <hr>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <h2>Personal details</h2><hr>
+      Mission statement
+      Why do you want to go to Mars?
+
+      Register for the trip!
+
+      Request to join the mission
+      <form class="push-0" method="post" action="https://formspree.io/">
+
+        <div class="push">
+          <label for="name">Name</label>
+          <input id="name" name="name" required>
+        </div>
+
+        <div class="push">
+          <label for="name">Age</label>
+          <input id="name" name="name" required>
+        </div>
+
+        <div class="push">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required>
+        </div>
+
+        <div class="push">
+          <label for="subject">Physical fitness</label>
+          <select id="subject" name="_subject">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+
+        <div class="push">
+          <label for="email">Address</label>
+          <input id="email" type="email" name="email" required>
+        </div>
+
+        <h2>Mission statement</h2><hr>
+
+
+        <div class="push">
+          <label for="details">What's up?</label>
+          <textarea id="details" name="message" required></textarea>
+        </div>
+        <div>
+          <button class="" type="submit">Register for the trip</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>
